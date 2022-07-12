@@ -1,6 +1,7 @@
 # FORMULARIO PARA CONEXION
 
 # Importo la libreria tkinter, con esta puedo crear mi interfaz gráfica
+
 from tkinter import *
 
 
@@ -59,6 +60,15 @@ ventana.title("Inicio de sesión al control de Asistencia del CFCRL")
 ventana.resizable(False, False)
 # Color de fondo de la ventana (USE EL VERDE INSTITUCIONAL)
 ventana.config(background="#2C572C")
+
+
+
+
+
+
+
+
+
 # --------------------------------------------------------------------------------------------------------
 
 
