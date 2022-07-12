@@ -41,7 +41,7 @@ def enviar_datos():
     file.close()
     print(" New user registered. Username: {} | host: {}   ".format(username_info, host_info))
 
-# ------------------------------ Eliminar los datos anteriormente ingresados -------------------------
+# ------------------------------ ELIMINAR LOS DATOS QUE SE INGRESARON ANTERIORMENTE -------------------------
     #el metodo delete borrara todos lo que exista
     username_entry.delete(0, END)
     password_entry.delete(0, END)
@@ -70,7 +70,7 @@ ventana.config(background="#2C572C")
 # width es el ancho en caracteres
 # height es la altura
 main_title = Label(text="INICIO DE SESIÓN  CONTROL DE ASISTENCIA CFCRL", font=("Consolas", 16),
-                   bg="#9D2449", fg="#B38E5D", width="500", height="2")
+                   bg="#9D2449", fg="#FFFAF0", width="500", height="2")
 # --------------------------------------------------------------------------------------------------------
 
 main_title.pack()
