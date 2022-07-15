@@ -53,13 +53,13 @@ def enviar_datos():
 # CREAR INSTANCIA DE LA CLASE TK
 ventana = Tk()
 # TAMAÑO DE LA VENTANA
-ventana.geometry("650x450")
+ventana.geometry("650x500")
 # TITULO DE LA VENTANA
 ventana.title("Inicio de sesión al control de Asistencia del CFCRL")
 # Accion que evita que se cambie de tamaño la ventana
 ventana.resizable(False, False)
 # Color de fondo de la ventana (USE EL VERDE INSTITUCIONAL)
-ventana.config(background="#2C572C")
+ventana.config(background="#B38E5D")
 
 
 
@@ -79,7 +79,7 @@ ventana.config(background="#2C572C")
 # fg es el color del texto
 # width es el ancho en caracteres
 # height es la altura
-main_title = Label(text="INICIO DE SESIÓN  CONTROL DE ASISTENCIA CFCRL", font=("Consolas", 16),
+main_title = Label(text="INICIO DE SESIÓN  CONTROL DE ASISTENCIA CFCRL ", font=("Consolas bold", 16),
                    bg="#9D2449", fg="#FFFAF0", width="500", height="2")
 # --------------------------------------------------------------------------------------------------------
 
@@ -92,13 +92,13 @@ main_title.pack()
 # fg es el color del texto
 # x es la posicion de la etiqueta en el eje x
 # y es la posicion de la etiqueta en el eje y
-username_label = Label(text="USERNAME", font=("Consolas", 12), bg="#000000",fg="#76EE00")
+username_label = Label(text="USERNAME", font=("Consolas bold", 12), bg="#9D2449",fg="#FFFFFF")
 username_label.place(x=20, y=75)
-password_label = Label(text="PASSWORD", font=("Consolas", 12), bg="#000000",fg="#76EE00")
+password_label = Label(text="PASSWORD", font=("Consolas bold", 12), bg="#9D2449",fg="#FFFFFF")
 password_label.place(x=20, y=135)
-host_label = Label(text="HOST", font=("Consolas", 12), bg="#000000",fg="#76EE00")
+host_label = Label(text="HOST", font=("Consolas bold", 12), bg="#9D2449",fg="#FFFFFF")
 host_label.place(x=20, y=195)
-base_label = Label(text="DATABASE", font=("Consolas", 12), bg="#000000",fg="#76EE00")
+base_label = Label(text="DATABASE", font=("Consolas bold", 12), bg="#9D2449",fg="#FFFFFF")
 base_label.place(x=20, y=255)
 
 # --------------------------------------------------------------------------------------------------------
@@ -130,8 +130,8 @@ base_entry.place(x=20, y=285)
 
 # ---------------------BOTON QUE AL HACER CLIC NOS ALMACENA LOS DATOS-------------------------------------
 # command nos lleva a una parte del código donde captura y manipulan los datos ingresados por el usuario
-iniciar_btn = Button(ventana, text="Iniciar sesion", width="30", height="2", command=enviar_datos,
-                     font=("Consolas", 12),fg="#76EE00", bg="#000000")
+iniciar_btn = Button(ventana, text="INICIAR SESIÓN", width="30", height="2", command=enviar_datos,
+                     font=("Consolas bold", 13),fg="#FFFFFF", bg="#2C572C")
 iniciar_btn.place(x=22, y=320)
 
 ventana.mainloop()
