@@ -58,7 +58,7 @@ ventana.geometry("650x500")
 ventana.title("Inicio de sesión al control de Asistencia del CFCRL")
 # Accion que evita que se cambie de tamaño la ventana
 ventana.resizable(False, False)
-# Color de fondo de la ventana (USE EL VERDE INSTITUCIONAL)
+# Color de fondo de la ventana (USE EL CAFE INSTITUCIONAL)
 ventana.config(background="#B38E5D")
 
 
