@@ -53,7 +53,7 @@ def enviar_datos():
 # CREAR INSTANCIA DE LA CLASE TK
 ventana = Tk()
 # TAMAÑO DE LA VENTANA
-ventana.geometry("650x500")
+ventana.geometry("650x501")
 # TITULO DE LA VENTANA
 ventana.title("Inicio de sesión al control de Asistencia del CFCRL")
 # Accion que evita que se cambie de tamaño la ventana
