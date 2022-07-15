@@ -1,0 +1,3 @@
+[Cnx_Nombre00000];[usuario_bd];[contrasena_bd];[Host];[Port];[db_Nombre]
+[Cnx_Nombre11111];[usuario_bd];[contrasena_bd];[Host];[Port];[db_Nombre]
+[Cnx_Nombre22222];[usuario_bd];[contrasena_bd];[Host];[Port];[db_Nombre]

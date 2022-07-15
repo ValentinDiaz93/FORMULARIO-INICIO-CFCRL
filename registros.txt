@@ -1,6 +1,0 @@
-USERNAME	PASSWORD	HOST	DATABASE	
-prueba1	prueba1	prueba1	prueba1	
-PRUEBA2	PRUEBA2	PRUEBA2	PRUEBA2	
-f	f	f	f	
-ff	f	f	f	
-d	gg	g	gg	
