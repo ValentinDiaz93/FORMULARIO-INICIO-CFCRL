@@ -20,7 +20,7 @@ def enviar_datos():
 # open- Crea un archivo de texto y escribe en el
 # a= append (agrega la informacion al final de lo que ya se tenia en el archivo
 
-#Si quiero que se almacenen todos los datso en el txt solo cambio la "w" por "a"
+#Si quiero que se almacenen todos los datos en el txt solo cambio la "w" por "a"
 
 
 # w= write (Escribe en un archivo)

@@ -8,7 +8,7 @@ import base64
 from typing import TextIO
 
 #ARCHIVO DE DONDE LEE LA INFORMACION SIN DESENCRIPTAR
-with open('ENCRIPT/sin_encriptar.txt', 'r') as f:
+with open('ENCRIPT/sin_encriptar.txt', 'r') as f:  # r= read y es solo para leer el txt que se llama sin_encriptar
     contents = f.read()
     # IMPRIMIR CONTENIDO
 
@@ -18,7 +18,7 @@ with open('ENCRIPT/sin_encriptar.txt', 'r') as f:
     urlSafeEncodedStr = str(urlSafeEncodedBytes, "utf-8")
     print(urlSafeEncodedStr + "\n")
 
-    f = open("ENCRIPT/encriptado.txt", 'a')
+    f = open("ENCRIPT/encriptado.txt", 'w')   # w= write y es solo para sobreescribir en el txt que se llama encriptado
     f.write(urlSafeEncodedStr)
     f.write("\n")
     f.close()
