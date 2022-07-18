@@ -13,15 +13,24 @@ with open('ENCRIPT/sin_encriptar.txt', 'r') as f:  # r= read y es solo para leer
     # IMPRIMIR CONTENIDO
 
     data = contents
-    # Codificación Base64 segura de URL y nombre de archivo
+    # Codificación Base 64 segura de URL y nombre de archivo
     urlSafeEncodedBytes = base64.urlsafe_b64encode(data.encode("utf-8"))
     urlSafeEncodedStr = str(urlSafeEncodedBytes, "utf-8")
-    print(urlSafeEncodedStr + "\n")
+
+    #AQUI SE IMPRIME EL ENCRIPTADO EN LA TERMINAL DE PYCHARM
+   # print(urlSafeEncodedStr + "\n")
+
+#ESCRIBE EL TEXTO ENCRIPTADO
 
     f = open("ENCRIPT/encriptado.txt", 'w')   # w= write y es solo para sobreescribir en el txt que se llama encriptado
     f.write(urlSafeEncodedStr)
     f.write("\n")
     f.close()
+
+
+
+
+
 
     ##     Desencriptar contenido almacenado en archivo de Texto
     # IMPRIMIR CONTENIDO

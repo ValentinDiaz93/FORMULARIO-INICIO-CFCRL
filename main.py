@@ -21,8 +21,6 @@ def enviar_datos():
 # a= append (agrega la informacion al final de lo que ya se tenia en el archivo
 
 #Si quiero que se almacenen todos los datos en el txt solo cambio la "w" por "a"
-
-
 # w= write (Escribe en un archivo)
 # El nombre del archivo a crear sera  registros
 
