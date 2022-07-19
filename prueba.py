@@ -1,10 +1,6 @@
 ## Declaración librería base64
 
 import base64
-
-# Leer el archivo
-# !/usr/bin/env python
-# read_width.py
 from typing import TextIO
 
 #ARCHIVO DE DONDE LEE LA INFORMACION SIN DESENCRIPTAR
@@ -28,19 +24,19 @@ with open('txt/sin_encriptar.txt', 'r') as f:  # r= read y es solo para leer el 
     f.close()
 
 
+    
 
 
-
-    #     Desencriptar contenido almacenado en archivo de Texto
+#    Desencriptar contenido almacenado en archivo de Texto
     print(contents)
-    encodedStr = Str
-    print ("Encoded String: " , encodedStr)
-    # Url Safe Base64 Decoding
+    encodedStr = str(urlSafeEncodedBytes, "utf-8")
+    print ("Encriptado g: " , encodedStr)
+    # Url Safe Base64 Desencriptado
     decodedBytes = base64.urlsafe_b64decode(encodedStr)
     decodedStr = str(decodedBytes, "utf-8")
-    print("Decoded String: " , decodedStr)
+    print("Desencriptado: " , decodedStr)
 
-#      Escribe la cadena de conexión al archivo de texto llamado works2.txt  (Decodificado)
-f = open("conexion_BD.txt", 'a')
+#      Escribe la cadena de conexión al archivo de texto llamado conexcion_BD  (Decodificado)
+f = open("txt/conexion_BD.txt", 'w')
 f.write(contents)
 f.close()
