@@ -21,24 +21,22 @@ def enviar_datos():
 # a= append (agrega la informacion al final de lo que ya se tenia en el archivo
 
 #Si quiero que se almacenen todos los datos en el txt solo cambio la "w" por "a"
-
-
 # w= write (Escribe en un archivo)
 # El nombre del archivo a crear sera  registros
 
-    file = open("ENCRIPT/sin_encriptar.txt", "w")
+    file = open("txt/sin_encriptar.txt", "w")
     file.write(username_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(password_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(host_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(base_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.close()
     print(" New user registered. Username: {} | host: {}   ".format(username_info, host_info))
 
@@ -135,3 +133,19 @@ iniciar_btn = Button(ventana, text="INICIAR SESIÓN", width="30", height="2", co
 iniciar_btn.place(x=22, y=320)
 
 ventana.mainloop()
+
+
+
+
+# #PRUEBAS PARA  ACCION DE ENCRIPTADO
+# if __name__ == "__main__":
+#     # encender_camara()
+#     # ray.get([encender_camara(),Reloj.reloj_fecha()])
+
+    # p1 = Process(target=encender_camara)
+    # p1.start()
+    # p2 = Process(target=Reloj.reloj_fecha)
+    # p2.start()
+    # # This is where I had to add the join() function.
+    # p1.join()
+    # p2.join()
