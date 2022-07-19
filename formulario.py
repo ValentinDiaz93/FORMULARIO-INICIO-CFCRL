@@ -132,7 +132,7 @@ iniciar_btn = Button(ventana, text="INICIAR SESIÓN", width="30", height="2", co
                      font=("Consolas bold", 13),fg="#FFFFFF", bg="#2C572C")
 iniciar_btn.place(x=22, y=320)
 
-ventana.mainloop()
+ventana.mainloop() #
 
 
 
