@@ -24,19 +24,19 @@ def enviar_datos():
 # w= write (Escribe en un archivo)
 # El nombre del archivo a crear sera  registros
 
-    file = open("ENCRIPT/sin_encriptar.txt", "w")
+    file = open("txt/sin_encriptar.txt", "w")
     file.write(username_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(password_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(host_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.write(base_info)
     #Se agrega la tabulacion (\t) para darle formato
-    file.write("\n")
+    file.write("\t")
     file.close()
     print(" New user registered. Username: {} | host: {}   ".format(username_info, host_info))
 
