@@ -3,6 +3,15 @@
 import base64
 from typing import TextIO
 
+# # ---------------- INICIO  PRUEBAS DE   ENCRIPTADO Y FORMULARIO
+# def encriptado():
+#
+#
+#
+# #------------------------------------  FIN PRUEBAS DE   ENCRIPTADO Y FORMULARIO
+
+
+
 #ARCHIVO DE DONDE LEE LA INFORMACION SIN DESENCRIPTAR
 with open('txt/sin_encriptar.txt', 'r') as f:  # r= read y es solo para leer el txt que se llama sin_encriptar
     contents = f.read()
@@ -30,11 +39,11 @@ with open('txt/sin_encriptar.txt', 'r') as f:  # r= read y es solo para leer el 
 #    Desencriptar contenido almacenado en archivo de Texto
     print(contents)
     encodedStr = str(urlSafeEncodedBytes, "utf-8")
-    print ("Encriptado g: " , encodedStr)
+    # print ("Encriptado g: " , encodedStr)
     # Url Safe Base64 Desencriptado
     decodedBytes = base64.urlsafe_b64decode(encodedStr)
     decodedStr = str(decodedBytes, "utf-8")
-    print("Desencriptado: " , decodedStr)
+    # print("Desencriptado: " , decodedStr)
 
 #      Escribe la cadena de conexión al archivo de texto llamado conexcion_BD  (Decodificado)
 f = open("txt/conexion_BD.txt", 'w')

@@ -133,3 +133,19 @@ iniciar_btn = Button(ventana, text="INICIAR SESIÓN", width="30", height="2", co
 iniciar_btn.place(x=22, y=320)
 
 ventana.mainloop()
+
+
+
+
+# #PRUEBAS PARA  ACCION DE ENCRIPTADO
+# if __name__ == "__main__":
+#     # encender_camara()
+#     # ray.get([encender_camara(),Reloj.reloj_fecha()])
+
+    # p1 = Process(target=encender_camara)
+    # p1.start()
+    # p2 = Process(target=Reloj.reloj_fecha)
+    # p2.start()
+    # # This is where I had to add the join() function.
+    # p1.join()
+    # p2.join()
